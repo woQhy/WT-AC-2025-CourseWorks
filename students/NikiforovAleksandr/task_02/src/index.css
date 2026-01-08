@@ -1,8 +1,10 @@
 /* stylelint-disable at-rule-no-unknown */
+
 /* Tailwind directives (обрабатываются PostCSS) */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 /* stylelint-enable at-rule-no-unknown */
 
 :root {
@@ -18,8 +20,9 @@ body {
   background-color: #f9fafb;
 }
 
-/* Стили для скроллбара (WebKit) */
 /* stylelint-disable selector-pseudo-element-no-unknown */
+
+/* Стили для скроллбара (WebKit) */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -38,9 +41,9 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
 /* stylelint-enable selector-pseudo-element-no-unknown */
 
-/* Полезные утилиты */
 .progress-bar {
   transition: width 0.3s ease-in-out;
 }
@@ -51,12 +54,13 @@ body {
 
 .card-hover:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1),
-    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 10px 25px -5px rgb(0 0 0 / 10%),
+    0 10px 10px -5px rgb(0 0 0 / 4%);
 }
 
-/* line clamp (WebKit) */
 /* stylelint-disable property-no-vendor-prefix */
+
+/* line clamp (WebKit) */
 .line-clamp-2 {
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -70,4 +74,5 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
 /* stylelint-enable property-no-vendor-prefix */
