@@ -4,10 +4,10 @@
 
 Файл содержит:
 
-1) Mermaid-диаграмму ERD  
-2) ASCII-эскиз  
-3) Модели данных (Python, FastAPI / Pydantic / SQLite)  
-4) Пример SQL DDL  
+1) Mermaid-диаграмму ERD
+2) ASCII-эскиз
+3) Модели данных (Python, FastAPI / Pydantic / SQLite)
+4) Пример SQL DDL
 
 ---
 
